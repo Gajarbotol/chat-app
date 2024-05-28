@@ -1,0 +1,72 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000;
+    color: #00FF00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#auth-container, #chat-container {
+    width: 350px;
+    border: 1px solid #00FF00;
+    padding: 20px;
+    background-color: #000;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#auth-container h2, #chat-container h3 {
+    margin-top: 0;
+    color: #00FF00;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #000;
+    color: #00FF00;
+    border: 1px solid #00FF00;
+}
+
+button {
+    padding: 10px;
+    background-color: #000;
+    color: #00FF00;
+    border: 1px solid #00FF00;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00FF00;
+    color: #000;
+}
+
+#messages {
+    list-style-type: none;
+    padding: 0;
+    height: 200px;
+    overflow-y: auto;
+    border-bottom: 1px solid #00FF00;
+    margin-bottom: 10px;
+    background-color: #000;
+}
+
+#messages li {
+    padding: 5px 10px;
+    border-bottom: 1px solid #00FF00;
+}
+
+#profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
